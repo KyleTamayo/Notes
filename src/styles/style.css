@@ -1,0 +1,36 @@
+:root {
+    --description-font-size: 1.2rem;
+    --term-font-size: 2.5rem;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header_1 {
+    font-size: var(--term-font-size);
+    text-align: center;
+}
+
+.header_2 {
+    text-decoration: underline;
+}
+
+.header_3 {
+
+}
+
+.d_list__term {
+    font-size: var(--description-font-size);
+    font-weight: bold;
+}
+
+.d_list__term::after {
+    content: ": ";
+}
