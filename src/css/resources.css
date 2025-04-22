@@ -1,0 +1,9 @@
+@import 'main.css';
+
+.resources-section__link {
+    text-decoration: none;
+}
+
+.resources-section__link:hover {
+    text-decoration: underline;
+}

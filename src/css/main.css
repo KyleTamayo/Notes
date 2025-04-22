@@ -1,0 +1,38 @@
+:root {
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.main-nav__link {
+    text-decoration: none;
+}
+
+.main-nav__link:hover {
+    text-decoration: underline;
+}
+
+.page-header__title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

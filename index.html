@@ -2,30 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="src/css/style.css" rel="stylesheet">
+    <title>My Notes And Resources</title>
+    <meta content="Personal web development notes and resources" name="description">
+    <link href="src/css/main.css" rel="stylesheet">
 </head>
-<body>
-<h1 class="header_1">My Notes</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="src/html/resources.html">Resources</a>
-</nav>
-<h2 class="header_2">HTML</h2>
-<section class="section_html">
-    <dl class="d_list">
-        <dt class="d_list__term">Descriptive Lists</dt>
-        <dd class="d_list__description">They can be used to semantically create lists of single or multiple terms and
-            descriptions. Works as a key -> value pairs.
-        </dd>
-        <dt class="d_list__term">Semantic HTML</dt>
-        <dd class="d_list__description">HTML elements are used to describe the content of the page. They are used to
-            provide meaning to the content.
-        </dd>
-        <dd class="d_list__description">Semantic HTML also improves developer experience with purposeful code and user
-            accessibility through things like screen reader support.
-        </dd>
-    </dl>
-</section>
+<body class="page">
+<header class="page-header">
+    <h1 class="page-header__title">Homepage</h1>
+    <nav aria-label="Main navigation" class="main-nav">
+        <ul class="main-nav__list">
+            <li class="main-nav__item">
+                <a class="main-nav__link" href="index.html">Home</a>
+            </li>
+            <li class="main-nav__item">
+                <a class="main-nav__link" href="src/html/html.html">HTML</a>
+            </li>
+            <li class="main-nav__item">
+                <a class="main-nav__link" href="src/html/resources.html">Resources</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 </body>
 </html>
