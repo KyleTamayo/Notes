@@ -22,7 +22,12 @@ html {
 
 .page-header__title {
     text-align: center;
-    font-size: 3rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.definition-list__term {
+    font-weight: bold;
 }
 
 .visually-hidden {
